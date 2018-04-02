@@ -7,7 +7,19 @@ So I prefer to downloading suitable content with calibre's prepared recipes into
 To further simplify the process I have created a dockerfile that will create an container image which by default downloads "The Economist".
 
 ## Create the Image
-The ```Dockerfile``` :
+The ```Dockerfile``` with ```ubuntu:latest```:
+```
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y calibre-bin
+
+ENV RECIPE "The Economist"
+
+VOLUME /tmp/calibre
+
+CMD ["bash","-c","ebook-convert \"${RECIPE}\".recipe /tmp/calibre/\"${RECIPE}\".mobi --output-profile kindle"]
+```
+
+The ```Dockerfile``` with ```ubuntu:devel``` :
 ```
 FROM ubuntu:devel
 
