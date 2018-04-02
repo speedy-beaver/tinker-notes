@@ -4,7 +4,7 @@ The Amazon Kindle reader software and hardware do have a good user experience co
 
 So I prefer to downloading suitable content with calibre's prepared recipes into ebooks and consume them with any form of kindle reader.
 
-To further simplify the process I have created a simple dockerfile that will create an container image which by default downloads "The Economist".
+To further simplify the process I have created a dockerfile that will create an container image which by default downloads "The Economist".
 
 ## Create the Image
 The ```Dockerfile``` :
