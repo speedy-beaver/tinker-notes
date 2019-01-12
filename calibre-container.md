@@ -1,6 +1,6 @@
 # Calibre Download in Docker
 
-The Amazon Kindle reader software and hardware do have a good user experience compared to some stock reader apps (..cough..economist ios app..cough..)
+The Amazon Kindle reader software and hardware have a good user experience compared to some stock reader apps (..cough..economist ios app..cough..)
 
 So I prefer to downloading suitable content with calibre's prepared recipes into ebooks and consume them with any form of kindle reader.
 
