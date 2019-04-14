@@ -1,7 +1,7 @@
 # Measurements
 
 ## Test Setup
-![Test Setup](GL-inet-test-setup.jpg = 576x768)
+<a href="url"><img src="GL-inet-test-setup.jpg" height="768" width="576" ></a>
 
 ## Scenarios
 ### Idle
