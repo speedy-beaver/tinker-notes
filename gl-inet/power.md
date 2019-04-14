@@ -14,9 +14,9 @@ Some power measurements for [GL-iNet MiFi](https://www.gl-inet.com/products/gl-m
 ### Idle
 |Activity|Ethernet|WiFi|4G|lighthttpd|Consumption 4.89V|
 |:------:|:------:|:--:|:-:|:-:|:--------:|
-|idle    |off     |off|off|off|140 mAh/30 min|
-|idle    |on     |off|on|off|166 mAh/30 min|
-|idle    |on     |on|on|on|182 mAh/30 min|
+|idle    |Disabled|Disabled|Disabled|Disabled|140 mAh/30 min|
+|idle    |Enabled|Disabled|Enabled|Disabled|166 mAh/30 min|
+|idle    |Enabled|Enabled|Enabled|Enabled|182 mAh/30 min|
 
 #### Disable Ethernet 
 Unplug Ethernet 
