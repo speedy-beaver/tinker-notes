@@ -1,5 +1,5 @@
 # Measurements
-
+Some power measurements for [GL-iNet MiFi](https://www.gl-inet.com/products/gl-mifi/)
 ## Test Setup
 <a href="url"><img src="GL-inet-test-setup.jpg" height="768" width="576" ></a>
 
