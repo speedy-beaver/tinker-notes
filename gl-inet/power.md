@@ -12,3 +12,22 @@
 |idle    |on     |on|on|on|182 mAh/30 min|
 
 ### Instantaneous Power Draw
+|Activity|Uplink|Draw 4.89V|
+|:------:|:------:|:--------:|
+|File Transfer|Ethernet|350 mA|
+|File Transfer|4G|650 mA|
+
+### Methods of disabling various networking
+#### Ethernet 
+Unplug Ethernet 
+#### WiFi
+Disable WiFi interface in ```/etc/config/wireless```:
+```
+config wifi-device 'radio0'
+    option disabled '1'
+```
+#### 4G
+Disable the 4G modem through the console
+```
+AT+QPOWD=1
+```
